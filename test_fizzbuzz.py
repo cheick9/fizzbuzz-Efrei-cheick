@@ -4,7 +4,7 @@ from fizzbuzz import fizzbuzz  # On importe la fonction fizzbuzz
 class TestFizzBuzz(unittest.TestCase):
     def test_fizz(self):
         self.assertEqual(fizzbuzz(3), "Fizz")
-        self.assertEqual(fizzbuzz(6), "Fizz")
+        self.assertEqual(fizzbuzz(7), "Fizz")
 
     def test_buzz(self):
         self.assertEqual(fizzbuzz(5), "Buzz")
